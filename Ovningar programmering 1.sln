@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Övning 5.21", "Övning 5.2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Övning 5.15a", "Övning 5.15a\Övning 5.15a.csproj", "{4C102B2D-4647-4D9C-863B-D187F1A60134}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Övning 6.9 Yatzy", "Övning 6.9 Yatzy\Övning 6.9 Yatzy.csproj", "{63D11DC9-5FC8-483D-925D-1EC8B1B8FC5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Övning 6.9b Yatzy", "Övning 6.9b Yatzy\Övning 6.9b Yatzy.csproj", "{ED06CFDE-E7BA-4391-9B77-D5A4844DF775}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{4C102B2D-4647-4D9C-863B-D187F1A60134}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C102B2D-4647-4D9C-863B-D187F1A60134}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C102B2D-4647-4D9C-863B-D187F1A60134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D11DC9-5FC8-483D-925D-1EC8B1B8FC5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D11DC9-5FC8-483D-925D-1EC8B1B8FC5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D11DC9-5FC8-483D-925D-1EC8B1B8FC5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D11DC9-5FC8-483D-925D-1EC8B1B8FC5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED06CFDE-E7BA-4391-9B77-D5A4844DF775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED06CFDE-E7BA-4391-9B77-D5A4844DF775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED06CFDE-E7BA-4391-9B77-D5A4844DF775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED06CFDE-E7BA-4391-9B77-D5A4844DF775}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

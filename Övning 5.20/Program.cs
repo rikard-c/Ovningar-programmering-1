@@ -60,8 +60,10 @@
                             break;
                     }
                 }
-                letterNumber = rnd.Next(0, alphabet.Length);
-                Console.Write(alphabet[letterNumber]);
+                char randomChar = (char)rnd.Next(32, 127);
+                //letterNumber = rnd.Next(0, alphabet.Length);
+                //Console.Write(alphabet[letterNumber]);
+                Console.Write(randomChar);
             }
             Console.ReadKey();
         }
