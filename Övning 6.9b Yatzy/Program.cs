@@ -19,16 +19,15 @@
             Random random = new Random();
             Console.CursorVisible = false;
 
-            while (round < 5) 
+            while (true) 
             { 
-                for (int i = 0; i < 6; i++)
+                for (int i = 0; i < 5; i++)
                 {
-                    int diceThrow = random.Next(1,7);
+                    int diceThrow = random.Next(0,6);
                     for (int j = 0; j < 5; j++)
                     {
-                        Console.SetCursorPosition(x, j+2
-                            );
-                        Console.WriteLine(dices[diceThrow-1,j]);
+                        Console.SetCursorPosition(x, j+2);
+                        Console.WriteLine(dices[diceThrow,j]);
                     }
 
                     x += 10; //Flyttar 10 steg åt höger

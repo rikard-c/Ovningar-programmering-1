@@ -1,4 +1,4 @@
-﻿namespace Övning_5._16
+﻿ namespace Övning_5._16
 {
     internal class Program
     {
