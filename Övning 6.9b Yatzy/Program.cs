@@ -16,26 +16,40 @@
 
             int x = 5;
             int round = 0;
+            List<int> diceThrows = new List<int>(); 
             Random random = new Random();
             Console.CursorVisible = false;
+            bool allSame = false;
+            string input = "j";
 
-            while (true) 
-            { 
-                for (int i = 0; i < 5; i++)
+            while (input == "j")
+            {
+                allSame = false;
+                round = 0;
+                while (!allSame)
                 {
-                    int diceThrow = random.Next(0,6);
-                    for (int j = 0; j < 5; j++)
+                    Console.Clear();
+                    diceThrows.Clear();
+                    for (int i = 0; i < 5; i++)
                     {
-                        Console.SetCursorPosition(x, j+2);
-                        Console.WriteLine(dices[diceThrow,j]);
-                    }
+                        int diceThrow = random.Next(0, 6);
+                        diceThrows.Add(diceThrow);
+                        for (int j = 0; j < 5; j++)
+                        {
+                            Console.SetCursorPosition(x, j + 2);
+                            Console.WriteLine(dices[diceThrow, j]);
+                        }
 
-                    x += 10; //Flyttar 10 steg åt höger
+                        x += 10; //Flyttar 10 steg åt höger
+                    }
+                    allSame = diceThrows.All(x => x == diceThrows[0]);
+                    round++;
+                    //Console.ReadKey();
+                    x = 5;
                 }
-                round++;
-                Console.ReadKey();
-                Console.Clear();
-                x = 5;
+                Console.WriteLine($"\n Du fick 5 st {diceThrows[0] + 1}:or efter {round} försök");
+                Console.Write("\n Vill du försöka igen (j/n)?: ");
+                input = Console.ReadLine();
             }
         }
     }
