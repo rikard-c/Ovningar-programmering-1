@@ -59,6 +59,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Övning 7.6", "Övning 7.6\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Övning 7.7 Prime number", "Övning 7.7 Prime number\Övning 7.7 Prime number.csproj", "{2781211B-1A4A-4C08-A6C4-B39C3B7A4126}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Övning 8.6 - Traffic light", "Traffic light\Övning 8.6 - Traffic light.csproj", "{1DAD8607-EF45-4BF6-AB26-E05799427B92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Övning 8.6 Traffic light 2", "Övning 8.6 Traffic light 2\Övning 8.6 Traffic light 2.csproj", "{057A86EB-40FC-4DC7-A586-7E511D348C2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +181,14 @@ Global
 		{2781211B-1A4A-4C08-A6C4-B39C3B7A4126}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2781211B-1A4A-4C08-A6C4-B39C3B7A4126}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2781211B-1A4A-4C08-A6C4-B39C3B7A4126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DAD8607-EF45-4BF6-AB26-E05799427B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DAD8607-EF45-4BF6-AB26-E05799427B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DAD8607-EF45-4BF6-AB26-E05799427B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAD8607-EF45-4BF6-AB26-E05799427B92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{057A86EB-40FC-4DC7-A586-7E511D348C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{057A86EB-40FC-4DC7-A586-7E511D348C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{057A86EB-40FC-4DC7-A586-7E511D348C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{057A86EB-40FC-4DC7-A586-7E511D348C2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
