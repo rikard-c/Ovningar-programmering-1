@@ -63,6 +63,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Övning 8.6 - Traffic light
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Övning 8.6 Traffic light 2", "Övning 8.6 Traffic light 2\Övning 8.6 Traffic light 2.csproj", "{057A86EB-40FC-4DC7-A586-7E511D348C2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Övning 8.7 - Pacman ghost", "Övning 8.7 - Pacman ghost\Övning 8.7 - Pacman ghost.csproj", "{D4024E19-F9E2-4FE8-B906-07917179BEBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Övning 8.8 - Flying bird", "Övning 8.8 - Flying bird\Övning 8.8 - Flying bird.csproj", "{DB53A19B-97EA-4ACD-BEAF-ACD268D1CADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Övning 8.11 - List prime", "Övning 8.11 - List prime\Övning 8.11 - List prime.csproj", "{45C44753-7BAC-4AFF-A581-AFC94B6F2528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Övning 8.11 - Faktorisering", "Övning 8.11 - Faktorisering\Övning 8.11 - Faktorisering.csproj", "{5ABBFC62-8A73-46AD-B5D0-99437B134CD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +197,22 @@ Global
 		{057A86EB-40FC-4DC7-A586-7E511D348C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{057A86EB-40FC-4DC7-A586-7E511D348C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{057A86EB-40FC-4DC7-A586-7E511D348C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4024E19-F9E2-4FE8-B906-07917179BEBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4024E19-F9E2-4FE8-B906-07917179BEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4024E19-F9E2-4FE8-B906-07917179BEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4024E19-F9E2-4FE8-B906-07917179BEBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB53A19B-97EA-4ACD-BEAF-ACD268D1CADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB53A19B-97EA-4ACD-BEAF-ACD268D1CADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB53A19B-97EA-4ACD-BEAF-ACD268D1CADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB53A19B-97EA-4ACD-BEAF-ACD268D1CADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C44753-7BAC-4AFF-A581-AFC94B6F2528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C44753-7BAC-4AFF-A581-AFC94B6F2528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C44753-7BAC-4AFF-A581-AFC94B6F2528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C44753-7BAC-4AFF-A581-AFC94B6F2528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ABBFC62-8A73-46AD-B5D0-99437B134CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABBFC62-8A73-46AD-B5D0-99437B134CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ABBFC62-8A73-46AD-B5D0-99437B134CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ABBFC62-8A73-46AD-B5D0-99437B134CD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

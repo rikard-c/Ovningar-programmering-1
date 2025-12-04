@@ -20,20 +20,20 @@
                     success = int.TryParse(input, out userNumber);
                 }
 
-                if (userNumber == 2)
-                {
-                    Console.Write($"Talet {userNumber} är ett primtal");
-                }
-                else if (userNumber <= 1)
-                {
-                    Console.Write($"Talet {userNumber} är inte ett primtal");
-                }
-                else if (userNumber % 2 == 0)
-                {
-                    Console.Write($"Talet {userNumber} är jämnt och således inte ett primtal");
-                }
-                else
-                {
+                //if (userNumber == 2)
+                //{
+                //    Console.Write($"Talet {userNumber} är ett primtal");
+                //}
+                //else if (userNumber <= 1)
+                //{
+                //    Console.Write($"Talet {userNumber} är inte ett primtal");
+                //}
+                //else if (userNumber % 2 == 0)
+                //{
+                //    Console.Write($"Talet {userNumber} är jämnt och således inte ett primtal");
+                //}
+                //else
+                //{
                     bool isPrime = true;
                     double squareRoot = Math.Sqrt(userNumber);
 
@@ -53,7 +53,7 @@
                 }
                 Console.ReadKey();
                 Console.Clear();
-            }
+            //}
         }
     }
 }
