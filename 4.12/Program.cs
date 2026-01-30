@@ -27,7 +27,7 @@
                     case "*":
                         answer = firstNumber * secondNumber;
                         Console.WriteLine($"{firstNumber} * {secondNumber} = {answer}");
-                        break;
+                        break; 
                     default:
                         Console.WriteLine("Ogiltigt räknesätt");
                         break;

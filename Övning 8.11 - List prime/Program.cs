@@ -7,7 +7,7 @@
             while (true)
             {
                 Console.WriteLine("Välkommen till primtalslistningen!\n-------------------------------------\n");
-                int userNumber = checkSubmittedNo("Mata in ett primtal: ");
+                int userNumber = checkSubmittedNo("Mata in ett heltal: ");
                 Console.WriteLine($"\nHär följer en lista av primtal upp till talet {userNumber}\n");
                 Console.Write("2 ");
                 int printThePrime = 3;
