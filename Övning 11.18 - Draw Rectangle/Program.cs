@@ -82,8 +82,8 @@
                 return false;
 
             // Draw the top and bottom line of the rectangle
-            for (int i = 1; i < width - 1; i++) 
-            { 
+            for (int i = 1; i < width - 1; i++)
+            {
                 Console.SetCursorPosition(x + i, y);
                 Console.Write("═");
                 Console.SetCursorPosition(x + i, y + height - 1);
@@ -104,9 +104,10 @@
             Console.Write("╔");
             Console.SetCursorPosition(x + width - 1, y);
             Console.Write("╗");
-
-
-
+            Console.SetCursorPosition(x, y + height - 1);
+            Console.Write("╚");
+            Console.SetCursorPosition(x + width - 1, y + height - 1);
+            Console.Write("╝");
 
             return true;
         }
