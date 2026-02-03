@@ -81,22 +81,15 @@
             return uniqueString;
         }
 
-        private static int Median(string digits)
+        private static double Median(string digits)
         {
             var sortedDigits = Sort(digits);
             var length = sortedDigits.Length;
-            if (length % 2 == 1)
-                return (sortedDigits[length / 2]);
-            else
-            {
-                if (length == 2)
-                {
-                    return (sortedDigits[0] - '0' + sortedDigits[1] - '0') / 2;
-                }
-                var half = sortedDigits.Length / 2;
-                return (sortedDigits[half] - '0' + sortedDigits[half + 1] - '0') / 2;
-            }
-
+            if (length == 1)
+                return sortedDigits[0] - '0';
+            if (length == 2)
+                return (sortedDigits[0] - '0' + sortedDigits[1] - '0') / 2.0;
+            return 666.0;
         }
     }
 }
