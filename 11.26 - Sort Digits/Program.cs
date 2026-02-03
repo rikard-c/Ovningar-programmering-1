@@ -11,7 +11,7 @@
                 var input = ReadDigitString("Ange en sträng av godtyckliga siffror: ");
                 Console.WriteLine($"Siffrorna sorterade: {Sort(input)}");
                 Console.WriteLine($"Siffrorna unikt sorterade: {Unique(input)}");
-                Console.WriteLine($"Medianvärdet är {Median(input)}");
+                Console.WriteLine($"Medianvärdet är: {Median(input)}");
                 Console.ReadKey();
             }
         }
@@ -85,11 +85,19 @@
         {
             var sortedDigits = Sort(digits);
             var length = sortedDigits.Length;
+            int half = (length / 2);
             if (length == 1)
                 return sortedDigits[0] - '0';
             if (length == 2)
                 return (sortedDigits[0] - '0' + sortedDigits[1] - '0') / 2.0;
-            return 666.0;
+            if (length % 2 == 1)
+            {
+                return (sortedDigits[half]) - '0';
+            }
+            else
+            {
+                return (sortedDigits[half - 1] - '0' + sortedDigits[half] - '0') / 2.0;
+            }
         }
     }
 }
